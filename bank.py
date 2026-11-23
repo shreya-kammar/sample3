@@ -16,9 +16,9 @@ def withdraw(balance , amount):
 if __name__=="__main__":
     print("---bank---")
     name = sys.argv[1]
-    initial_balance = float(sys.argv[2])
-    deposited = float(sys.argv[3])
-    withdrawal_amount = float(sys.argv[4])
+    initial_balance = sys.argv[2]
+    deposited = sys.argv[3]
+    withdrawal_amount = sys.argv[4]
 
     name = input("enter name :")
     initial_balance=float(input("enter balance of your account :"))
